@@ -70,3 +70,5 @@ We'll compare the running times of `linear_search` and `binary_search` empirical
   + What is worst-case complexity of searching a list of $n$ elements $k$ times using linear search? **Each linear search takes Θ(n) time in the worst case so doing this k times = Θ(k * n)**
   + For binary search? **Sorting the list takes Θ(n^2) and each binary search takes Θ(logn). Doing this k times takes Θ(n^2 + k * logn)**
   + For what values of $k$ is it more efficient to first sort and then use binary search versus just using linear search without sorting? **Binary search is more efficient when n^2 + k * logn < k * n. For example if n=10 then when k > 13 binart will be more efficient.**
+     
+  + 
