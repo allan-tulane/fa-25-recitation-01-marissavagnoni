@@ -109,7 +109,7 @@ def print_results(results):
 							floatfmt=".3f",
 							tablefmt="github"))
 	
-print_results(compare_search())
+#print_results(compare_search())
 
 
 
